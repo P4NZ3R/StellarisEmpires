@@ -1,0 +1,64 @@
+"League of Sbergospinia"
+={
+	key="League of Sbergospinia"
+	ship_prefix="SBS"
+	species={
+		class="MAM"
+		portrait="mam17"
+		name="Sbergospino"
+		plural="Sbergospini"
+		adjective="Sbergospino"
+		species_bio="Noti per il loro ingenio e la loro abilità alla guida gli Sbergospini vantano di una temibile flotta."
+		name_list="HUMAN2"
+		trait="trait_ingenious"
+		trait="trait_solitary"
+		trait="trait_natural_physicists"
+	}
+	name="League of Sbergospinia"
+	adjective="Sbergospinian"
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	planet_name="Sbergospinia"
+	planet_class="pc_arid"
+	system_name="Sbergania"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"light_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Spinius Bergus"
+		portrait="mam17"
+		texture=1
+		hair=0
+		clothes=5
+		ruler_title="Commander"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_peaceful_traders_room"
+	spawn_enabled=no
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_police_state"
+	}
+	origin="origin_galactic_doorstep"
+}
