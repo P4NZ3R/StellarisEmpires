@@ -2025,3 +2025,66 @@
 	}
 	origin="origin_default"
 }
+"Othari Sacrosanct Council"
+={
+	key="Othari Sacrosanct Council"
+	ship_prefix=""
+	species={
+		class="MAM"
+		portrait="mam_rat"
+		name="Othari"
+		plural="Othari"
+		adjective="Otharian"
+		name_list="MAM1"
+		trait="trait_traditional"
+		trait="trait_natural_sociologists"
+	}
+	name="Othari Sacrosanct Council"
+	adjective="Otharian"
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	planet_name="Fevaria"
+	planet_class="pc_savannah"
+	system_name="Solaris"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"yellow"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ban B'Than"
+		portrait="mam_rat"
+		texture=0
+		hair=0
+		clothes=2
+		ruler_title="Bishop"
+		ruler_title_female="High Priestess"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_environmentalist"
+		"civic_meritocracy"
+	}
+	origin="origin_default"
+}
