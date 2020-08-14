@@ -2088,3 +2088,69 @@
 	}
 	origin="origin_default"
 }
+"Make Sbisne Trade Again"
+={
+	key="Make Sbisne Trade Again"
+	ship_prefix="Sbisne"
+	species={
+		class="ART"
+		portrait="art6"
+		name="Sbisnesman"
+		plural="Sbisnesmens"
+		adjective="Sbisnesmens's"
+		name_list="MAM2"
+		trait="trait_ingenious"
+		trait="trait_nonadaptive"
+		trait="trait_communal"
+		trait="trait_conservational"
+	}
+	name="Make Sbisne Trade Again"
+	adjective="Sbisnesmens's"
+	authority="auth_corporate"
+	government="gov_trade_league"
+	advisor_voice_type="l_slick_corp"
+	planet_name="Aviato"
+	planet_class="pc_continental"
+	system_name="Silicon Valley"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="corporate"
+			file="corporate_06.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Elrich Bachman"
+		portrait="art6"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="CEO"
+		ruler_title_female="CEO"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_harmonious_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	civics={
+		"civic_trading_posts"
+		"civic_free_traders"
+	}
+	origin="origin_life_seeded"
+}
