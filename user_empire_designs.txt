@@ -1063,7 +1063,7 @@
 	name="Galactic Federation"
 	adjective="Galactic Federation"
 	authority="auth_oligarchic"
-	government="gov_megacorporation"
+	government="gov_executive_committee"
 	advisor_voice_type="l_authoritarian"
 	planet_name="Gromflon Prime"
 	planet_class="pc_continental"
@@ -1106,8 +1106,8 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
 	civics={
-		"civic_corporate_dominion"
 		"civic_police_state"
+		"civic_shadow_council"
 	}
 	origin="origin_default"
 }
@@ -1719,7 +1719,7 @@
 	name="Serenissima Repubblica Venetiana"
 	adjective="Serenissima"
 	authority="auth_oligarchic"
-	government="gov_megacorporation"
+	government="gov_executive_committee"
 	planet_name="Venetia"
 	planet_class="pc_ocean"
 	system_name="Serenissima"
@@ -1760,8 +1760,8 @@
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_corporate_dominion"
 		"civic_distinguished_admiralty"
+		"civic_merchant_guilds"
 	}
 	origin="origin_default"
 }
@@ -1914,8 +1914,8 @@
 	}
 	name="Stonks Industries"
 	adjective="Wallstreeto"
-	authority="auth_oligarchic"
-	government="gov_megacorporation"
+	authority="auth_corporate"
+	government="gov_trade_league"
 	planet_name="Wallstreet"
 	planet_class="pc_tropical"
 	system_name="Wall"
@@ -1954,8 +1954,8 @@
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_materialist"
 	civics={
-		"civic_corporate_dominion"
-		"civic_cutthroat_politics"
+		"civic_free_traders"
+		"civic_trading_posts"
 	}
 	origin="origin_default"
 }
