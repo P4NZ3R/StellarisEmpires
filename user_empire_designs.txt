@@ -127,7 +127,7 @@
 		"civic_free_haven"
 		"civic_cutthroat_politics"
 	}
-	origin="origin_default"
+	origin="origin_doomsday"
 }
 "Dugon Dug Dugonia"
 ={
@@ -1446,12 +1446,12 @@
 	key="Technocracy of Tucatuca"
 	ship_prefix="DDT"
 	species={
-		class="REP"
-		portrait="rep12"
+		class="MOL"
+		portrait="mol1"
 		name="Darkdepht"
 		plural="Darkdephts"
 		adjective="Darkdephtan"
-		species_bio="Tucatuca tuuuca, l'ho invbentato iooo, per poterti diiire, mi piaci mi piaci mi pià!!!"
+		species_bio="Tucatuca tuuuca, l'ho inventato iooo, per poterti diiire, mi piaci mi piaci mi pià!!!"
 		name_list="MOL2"
 		trait="trait_nonadaptive"
 		trait="trait_sedentary"
@@ -1488,10 +1488,10 @@
 	ruler={
 		gender=female
 		name="Tucatuca"
-		portrait="rep12"
+		portrait="mol1"
 		texture=2
 		hair=0
-		clothes=2
+		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
@@ -1502,6 +1502,7 @@
 	ethic="ethic_fanatic_materialist"
 	civics={
 		"civic_technocracy"
+		"civic_diplomatic_corps"
 	}
 	origin="origin_default"
 }
@@ -1902,8 +1903,8 @@
 	key="Stonks Industries"
 	ship_prefix=""
 	species={
-		class="MOL"
-		portrait="mol3"
+		class="REP"
+		portrait="rep6"
 		name="Wallstreet Boi"
 		plural="Wallstreet Bois"
 		adjective="Wallstreetoan"
@@ -1942,7 +1943,7 @@
 	ruler={
 		gender=male
 		name="Big Boi"
-		portrait="mol3"
+		portrait="rep6"
 		texture=2
 		hair=0
 		clothes=4
@@ -2222,4 +2223,71 @@
 		"civic_merchant_guilds"
 	}
 	origin="origin_post_apocalyptic"
+}
+"Broforce Nation"
+={
+	key="Broforce Nation"
+	ship_prefix=""
+	species={
+		class="MAM"
+		portrait="mam14"
+		name="Broniano"
+		plural="Broniani"
+		adjective="Broniano"
+		name_list="MAM2"
+		trait="trait_intelligent"
+		trait="trait_natural_physicists"
+		trait="trait_sedentary"
+	}
+	name="Broforce Nation"
+	adjective="Broniano"
+	authority="auth_imperial"
+	government="gov_irenic_monarchy"
+	advisor_voice_type="l_pacifist"
+	planet_name="Broland"
+	planet_class="pc_alpine"
+	system_name="Brostar"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"black"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Bronan"
+		portrait="mam14"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title="Bro"
+		heir_title="Little Bro"
+		ruler_title_female="Sis"
+		heir_title_female="Little Sis"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_diplomatic_corps"
+		"civic_agrarian_idyll"
+	}
+	origin="origin_shoulders_of_giants"
 }
