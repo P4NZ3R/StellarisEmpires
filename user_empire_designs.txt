@@ -872,6 +872,7 @@
 		adjective="Rick"
 		species_bio="Every kiss begins with a Council of Ricks"
 		name_list="MACHINE1"
+		trait="trait_void_dweller_1"
 		trait="trait_intelligent"
 		trait="trait_solitary"
 		trait="trait_natural_engineers"
@@ -881,10 +882,10 @@
 	authority="auth_oligarchic"
 	government="gov_science_directorate"
 	advisor_voice_type="l_materialist"
-	planet_name="Earth"
+	planet_name="Citadel"
 	planet_class="pc_continental"
-	system_name="Sun"
-	initializer=""
+	system_name="Rickonia"
+	initializer="void_dweller_system"
 	graphical_culture="fungoid_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -922,7 +923,7 @@
 	civics={
 		"civic_technocracy"
 	}
-	origin="origin_default"
+	origin="origin_void_dwellers"
 }
 "Divine Fabolous Peacock Alliance"
 ={
@@ -1320,72 +1321,6 @@
 		"civic_warrior_culture"
 	}
 	origin="origin_default"
-}
-"Zuchini Schifi"
-={
-	key="Zuchini Schifi"
-	ship_prefix="ZCN"
-	species={
-		class="FUN"
-		portrait="fun10"
-		name="Zuchini"
-		plural="Zuchinis"
-		adjective="Zuchinian"
-		species_bio="Zucchini Schifi-Lickin' Good"
-		name_list="PLANT3"
-		trait="trait_hive_mind"
-		trait="trait_agrarian"
-		trait="trait_rapid_breeders"
-		trait="trait_traditional"
-		trait="trait_repugnant"
-		trait="trait_sedentary"
-	}
-	name="Zuchini Schifi"
-	adjective="Zuchinian"
-	authority="auth_hive_mind"
-	government="gov_devouring_swarm"
-	planet_name="Ortos"
-	planet_class="pc_savannah"
-	system_name="Terrunum"
-	initializer=""
-	graphical_culture="plantoid_01"
-	city_graphical_culture="plantoid_01"
-	empire_flag={
-		icon={
-			category="zoological"
-			file="flag_zoological_16.dds"
-		}
-		background={
-			category="backgrounds"
-			file="diagonal.dds"
-		}
-		colors={
-			"light_green"
-			"dark_green"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Schifo Groso"
-		portrait="fun10"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="Zuchino Majore"
-		leader_class="ruler"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="personality_spiritual_seekers_room"
-	spawn_enabled=yes
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_hive_one_mind"
-		"civic_hive_devouring_swarm"
-	}
-	origin="origin_remnants"
 }
 "Cuneo Capitale"
 ={
@@ -2314,4 +2249,70 @@
 		"civic_agrarian_idyll"
 	}
 	origin="origin_shoulders_of_giants"
+}
+"Zuchini Devourers"
+={
+	key="Zuchini Devourers"
+	ship_prefix="ZCN"
+	species={
+		class="FUN"
+		portrait="fun10"
+		name="Zuchini"
+		plural="Zuchinis"
+		adjective="Zuchinian"
+		species_bio="In zuchini space Zuchini eats you"
+		name_list="PLANT3"
+		trait="trait_hive_mind"
+		trait="trait_agrarian"
+		trait="trait_rapid_breeders"
+		trait="trait_traditional"
+		trait="trait_repugnant"
+		trait="trait_sedentary"
+	}
+	name="Zuchini Devourers"
+	adjective="Zuchinian"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Ortos"
+	planet_class="pc_savannah"
+	system_name="Terrunum"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"light_green"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Schifo Groso"
+		portrait="fun10"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Zuchino Majore"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_one_mind"
+		"civic_hive_devouring_swarm"
+	}
+	origin="origin_remnants"
 }
