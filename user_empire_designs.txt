@@ -53,7 +53,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_peaceful_traders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -120,7 +120,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophile"
 	civics={
@@ -184,7 +184,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_hive_mind_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_militarist"
 	civics={
@@ -377,7 +377,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_decadent_hierarchy_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -441,7 +441,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_federation_builders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -505,7 +505,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_purifier_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_materialist"
@@ -572,7 +572,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_erudite_explorers_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_one_mind"
@@ -701,7 +701,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_democratic_crusaders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
@@ -843,7 +843,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_harmonious_hierarchy_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
@@ -907,7 +907,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_peaceful_traders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -970,7 +970,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_befrienders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -1035,7 +1035,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_befrienders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -1101,7 +1101,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_democratic_crusaders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
@@ -1166,7 +1166,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_slaving_despots_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_materialist"
 	civics={
@@ -1232,7 +1232,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_evangelizing_zealots_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -1297,7 +1297,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_slaving_despots_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -1363,7 +1363,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_one_mind"
@@ -1432,7 +1432,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_purifier_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -1451,6 +1451,7 @@
 		name="Darkdepht"
 		plural="Darkdephts"
 		adjective="Darkdephtan"
+		species_bio="Tucatuca tuuuca, l'ho invbentato iooo, per poterti diiire, mi piaci mi piaci mi pià!!!"
 		name_list="MOL2"
 		trait="trait_nonadaptive"
 		trait="trait_sedentary"
@@ -1496,7 +1497,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_xenophobic_isolationists_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -1561,7 +1562,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_harmonious_hierarchy_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
@@ -1625,7 +1626,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_erudite_explorers_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -1756,7 +1757,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
 	civics={
@@ -1821,7 +1822,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_purifier_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -1887,7 +1888,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_democratic_crusaders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_materialist"
 	civics={
@@ -1950,7 +1951,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="machine_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_materialist"
 	civics={
@@ -2016,7 +2017,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_befrienders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophile"
 	civics={
@@ -2079,7 +2080,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
-	spawn_enabled=always
+	spawn_enabled=no
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
@@ -2145,7 +2146,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_harmonious_hierarchy_room"
-	spawn_enabled=always
+	spawn_enabled=no
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
 	civics={
@@ -2153,4 +2154,72 @@
 		"civic_free_traders"
 	}
 	origin="origin_life_seeded"
+}
+"Atom Order"
+={
+	key="Atom Order"
+	ship_prefix=""
+	species={
+		class="MOL"
+		portrait="mol12"
+		name="Atomani"
+		plural="Atomani"
+		adjective="Atomanian"
+		species_bio="WE are ONE, WE are ATOM"
+		name_list="MOL4"
+		trait="trait_survivor"
+		trait="trait_extremely_adaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_repugnant"
+		trait="trait_unruly"
+	}
+	name="Atom Order"
+	adjective="Atomanian"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	advisor_voice_type="l_spiritualist"
+	planet_name="Proton"
+	planet_class="pc_ocean"
+	system_name="Atom"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"dark_purple"
+			"purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Atomina"
+		portrait="mol12"
+		texture=5
+		hair=0
+		clothes=0
+		ruler_title="Archprophet"
+		ruler_title_female="Archprophetess"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_byzantine_bureaucracy"
+		"civic_merchant_guilds"
+	}
+	origin="origin_post_apocalyptic"
 }
