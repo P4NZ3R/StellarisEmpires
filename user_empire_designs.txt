@@ -2316,9 +2316,9 @@
 	}
 	origin="origin_remnants"
 }
-"University of Quartiere"
+"Quartiere University"
 ={
-	key="University of Quartiere"
+	key="Quartiere University"
 	ship_prefix=""
 	species={
 		class="MOL"
@@ -2335,7 +2335,7 @@
 		trait="trait_unruly"
 		trait="trait_deviants"
 	}
-	name="University of Quartiere"
+	name="Quartiere University"
 	adjective="Quartieran"
 	authority="auth_dictatorial"
 	government="gov_technocratic_dictatorship"
@@ -2343,7 +2343,7 @@
 	planet_class="pc_arid"
 	system_name="Strada"
 	initializer="void_dweller_system"
-	graphical_culture="reptilian_01"
+	graphical_culture="molluscoid_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
