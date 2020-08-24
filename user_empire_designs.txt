@@ -2327,7 +2327,7 @@
 		plural="Studiotti"
 		adjective="Studiottian"
 		species_bio="L'università della vita è la strada del mio quartiere"
-		name_list="HUM1"
+		name_list="HUMAN3"
 		trait="trait_void_dweller_1"
 		trait="trait_intelligent"
 		trait="trait_natural_engineers"
@@ -2368,7 +2368,7 @@
 		texture=2
 		hair=0
 		clothes=4
-		ruler_title="Archistudiotto"
+		ruler_title="Arcistudiotto"
 		ruler_title_female="Arcistudiotta"
 		leader_class="ruler"
 	}
